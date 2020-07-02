@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-public class SimpleProgram {
+public class Simple {
 
 	public static void main(String[] args) throws IOException   {
 		 File file = new File("file.txt");
@@ -13,7 +13,6 @@ public class SimpleProgram {
 		 pw.println("Hello");
 		 pw.close();
 		 System.out.println("File is created");
-
 	}
 
 }
